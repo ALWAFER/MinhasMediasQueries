@@ -1,46 +1,39 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Média Query</title>
-    <!-- chamdas de Media Query -->
-    <link rel="stylesheet" href="Estilos/tela.css" media="screen">
-    <link rel="stylesheet" href="Estilos/impressora.css" media="print">
-</head>
+@charset "UTF-8";
 
-<body>
-    <h1>Aldo wagner fernandes</h1>
-    <header>
-        <h1>Notícias</h1><br>
+/* Estilo para telas */
 
-        <menu>
-            <ul>
-                <li>Esportes</li>
-                <li>Política</li>
-                <li>Técnologia</li>
-            </ul>
+ * {
+    margin: 0px;
+    padding: 0px;
+   }
 
-        </menu>
-        <main>
-            <article>
-                <h2>Estou aprendendo a criar Media Queries</h2>
+ html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1,5em;
+   }
 
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestias nisi pariatur odit excepturi mollitia qui ipsam obcaecati deleniti tempora, officiis dicta, dignissimos dolorum veniam, culpa tempore accusamus? Sint, dignissimos?
-                </p>
+ header {
+   background-color: rgb(158, 158, 158);
+   }
 
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem ea itaque corrupti illo! Dolores architecto beatae laboriosam commodi, perferendis doloribus cum aliquam, non, nesciunt nostrum corrupti reprehenderit quibusdam ex.</p>
+ header > h1 {
+   text-align: center;
+   }
 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis hic repudiandae reiciendis. Ipsum eius quasi pariatur consequuntur, molestias porro. Maiores ratione at consequatur perferendis enim, facilis quo vitae culpa cumque!
+ menu ul {
+   list-style-type:none;
+   background-color: gray;
+   }
 
+ menu li { 
+   background-color: rgb(75, 75, 75);
+   color: white;
+   display: inline-block;
+   padding: 10px;
+   }
 
-                </p>
+ article { width:  600px;
+           display: block; 
+           margin: auto;
+   }
 
-            </article>
-        </main>
-    </header>    
-</body>
-</html>
