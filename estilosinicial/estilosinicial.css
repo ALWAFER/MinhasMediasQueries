@@ -7,18 +7,12 @@
     background: url(imagensiniial/Papelparede.jpg')
 }
 
-html, body {
+ body {
     height: 100vh;
     width: 100vw;
     background: url('../imagensinicial/
             Papelparede.jpg')
-    body {
-        background: url('../imagensinicial/
-            Papelparede.jpg')
-        no-repeat top center;
-        background-size: cover;
-        background-attachment: fixed;
-    }
+   
 
     main{
         position: relative;
