@@ -7,9 +7,10 @@
 }
 
  body {
-    height: 100vh;
-    width: 100vw;
-    background: url('../imagensinicial/Papelparede.jpg')
+     height: 100vh;
+     width: 100vw;
+     background-image: url('../imagensinicial/Papelparede.jpg');
+     background-size:cover;        
       }
    
 
