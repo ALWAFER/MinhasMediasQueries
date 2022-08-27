@@ -6,7 +6,15 @@
     font-family:Arial, Helvetica, sans-serif;   
 }
 
- body {
+body {
+    width: 96vw;
+    height: 96vh;
+    background: black url('imagensinicial/tela-home.jpg') no-repeat
+    top center;
+    background-size: cover;    
+} 
+
+ bodym {
      height: 100vh;
      width: 100vw;
      background-image: url('../imagensinicial/Papelparede.jpg');
