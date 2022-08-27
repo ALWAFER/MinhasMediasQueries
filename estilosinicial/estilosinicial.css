@@ -35,7 +35,7 @@ body {
         transform: translate(-50%, -50%);
         height: 627px;
         width: 313px;       
-        background: url('../imagens/frame-iphone.png') no-repeat ;
+        background: url('../imagensinicial/Papelparede.jpg') no-repeat ;
     }
 
     iframe#tela {
