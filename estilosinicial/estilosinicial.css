@@ -13,7 +13,7 @@ html, body {
     }
 
     body {
-        background: url('imagensinicial/
+        background: url('../imagensinicial/
             Papelparede.jpg')
         no-repeat top center;
         background-size: cover;
