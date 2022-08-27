@@ -9,7 +9,7 @@
 body {
     width: 96vw;
     height: 96vh;
-    background: black url('imagensinicial/Papelparede.jpg') no-repeat
+    background: black url('../imagensinicial/Papelparede.jpg') no-repeat
     top center;
     background-size: cover;    
 } 
