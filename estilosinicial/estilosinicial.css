@@ -4,8 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family:Arial, Helvetica, sans-serif;
-    background: url('../imagensinicial/
-            Papelparede.jpg')
+    background: url(Papelparede.jpg')
 }
 
 html, body {
