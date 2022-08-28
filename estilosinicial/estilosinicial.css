@@ -10,8 +10,7 @@
 body {
     width: 96vw;
     height: 56vh;
-    background: blue url('imagensinicial/tela-madeira.jpg') no-repeat
-    top center;
+    background: blue ;
     background-size: cover;    
 } 
 
