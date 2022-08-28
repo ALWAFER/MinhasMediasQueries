@@ -8,8 +8,8 @@
   }
 
 body {
-    width: 56vw;
-    height: 56vh;
+    width: 256vw;
+    height: 256vh;
     background: blue ;
     background-size: cover;    
 } 
